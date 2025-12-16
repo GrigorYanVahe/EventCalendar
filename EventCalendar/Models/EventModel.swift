@@ -68,13 +68,3 @@ struct Event: Hashable, Decodable, Identifiable {
         self.longDescription = longDescription
     }
 }
-
-enum NavigationError: Error, LocalizedError {
-    case networkError
-    
-    var errorDescription: String? {
-        switch self {
-        case .networkError: return "Network connection failed"
-        }
-    }
-}

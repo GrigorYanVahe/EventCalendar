@@ -13,11 +13,10 @@ struct CalendarView: View {
     
     @State private var monthDate = Date.now.startOfMonth
     @State private var selectedDate: Date? = nil
-    
-    let daysOfWeek = Date.capitalizedFirstLettersOfWeekdays
-    let columns = Array(repeating: GridItem(.flexible()), count: 7)
-    
     @State private var days: [Date] = []
+    
+    private let daysOfWeek = Date.capitalizedFirstLettersOfWeekdays
+    private let columns = Array(repeating: GridItem(.flexible()), count: 7)
     
     var body: some View {
         ZStack {
@@ -75,16 +74,14 @@ struct CalendarView: View {
                             Spacer()
                         } else {
                             CalendarDayView(isToday: (selectedDate == day), day: day, onDayTap: { tappedDay in
-                                if selectedDate == tappedDay {
-                                    selectedDate = nil
-                                } else {
-                                    if selectedDate != nil {
-//                                        await viewModel.loadEventData(day: selectedDate!)
+                                withAnimation(.easeInOut) {
+                                    if selectedDate == tappedDay {
+                                        selectedDate = nil
+                                    } else {
+                                        selectedDate = tappedDay
                                     }
-                                    selectedDate = tappedDay
                                 }
                             }, hasEvents: viewModel.monthData[day]?.hasEvents)
-                            .animation(.easeInOut, value: selectedDate?.dayInt)
                         }
                     }
                 }
@@ -93,13 +90,13 @@ struct CalendarView: View {
                     ProgressView()
                         .progressViewStyle(.circular)
                         .scaleEffect(1.6)
-                }
-                
-                if !viewModel.events.isEmpty, selectedDate != nil {
+                        .padding(.top)
+                } else if !viewModel.events.isEmpty, selectedDate != nil {
                     EventsView(date: selectedDate!, events: viewModel.events) { event in
                         coordinator.navigate(to: .eventDetail(event))
                     }
                 }
+                
                 Spacer()
             }
             .frame(width: UIScreen.main.bounds.width - 24)

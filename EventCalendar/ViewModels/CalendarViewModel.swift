@@ -14,38 +14,56 @@ final class CalendarViewModel: ObservableObject {
     @Published var monthData: [Date: DaylyData] = [:]
     @Published var events: [Event] = []
     @Published var isMonthDataLoading = false
+    private var monthDataTask: URLSessionDataTask?
     @Published var isEventDataLoading = false
+    private var eventsDataTask: URLSessionDataTask?
     @Published var error: String?
-
-    private let service = NetworkService()
-
+    
+    private let networkService = NetworkService.shared
+    
     func loadMonthData(month: Date) async {
         isMonthDataLoading = true
         monthData.removeAll()
-        do {
-            Task {
-                try? await Task.sleep(nanoseconds: 1_000_000_000)
+        monthDataTask?.cancel()
+        
+        self.monthDataTask = networkService.loadMonthData(for: month) { [weak self] result in
+            DispatchQueue.main.async {
+                self?.isMonthDataLoading = false
             }
-            monthData = try await service.loadMonthData(for: month)
-            print(monthData)
-        } catch {
-            self.error = error.localizedDescription
+            switch result {
+            case .success(let response):
+                DispatchQueue.main.async {
+                    self?.monthData = response
+                }
+            case .failure(let error):
+                DispatchQueue.main.async {
+                    self?.error = error.localizedDescription
+                }
+            }
+            self?.monthDataTask = nil
         }
-        isMonthDataLoading = false
     }
     
     func loadEventData(day: Date) async {
         isEventDataLoading = true
         events.removeAll()
-        do {
-            Task {
-                try? await Task.sleep(nanoseconds: 1_000_000_000)
+        eventsDataTask?.cancel()
+        
+        eventsDataTask = networkService.loadEventData(for: day) { [weak self] result in
+            DispatchQueue.main.async {
+                self?.isEventDataLoading = false
             }
-            events = try await service.loadEventData(for: day)
-            print(events)
-        } catch {
-            self.error = error.localizedDescription
+            switch result {
+            case .success(let response):
+                DispatchQueue.main.async {
+                    self?.events = response
+                }
+            case .failure(let error):
+                DispatchQueue.main.async {
+                    self?.error = error.localizedDescription
+                }
+            }
+            self?.eventsDataTask = nil
         }
-        isEventDataLoading = false
     }
 }
