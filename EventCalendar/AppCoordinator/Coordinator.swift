@@ -38,9 +38,4 @@ class AppCoordinator: Coordinator {
     func popToRoot() {
         path.removeLast(path.count)
     }
-    
-    func handleError(_ error: NavigationError) {
-        alertMessage = error.localizedDescription
-        showAlert = true
-    }
 }

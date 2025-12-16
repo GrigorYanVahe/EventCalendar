@@ -52,7 +52,6 @@ struct CalendarDayView: View {
 }
 
 #Preview {
-    CalendarDayView(isToday: false, day: Date.now, onDayTap: { test in
-        print("good")
+    CalendarDayView(isToday: false, day: .now, onDayTap: { test in
     }, hasEvents: true)
 }
