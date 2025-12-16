@@ -1,0 +1,989 @@
+[
+    {
+        "title": "Morning Team Sync",
+        "type": "work",
+        "date": "2025-10-01T09:00:00",
+        "shortDescription": "Daily standup meeting",
+        "longDescription": "Discuss the current progress, blockers, and tasks for each team member in detail. Focus on upcoming deadlines and coordinate priorities."
+    },
+    {
+        "title": "Code Refactoring Session",
+        "type": "work",
+        "date": "2025-10-01T11:00:00",
+        "shortDescription": "Improve code quality",
+        "longDescription": "Refactor legacy code, improve readability and performance, add detailed comments, and ensure compliance with coding standards."
+    },
+    {
+        "title": "Evening Jog",
+        "type": "activity",
+        "date": "2025-10-01T18:30:00",
+        "shortDescription": "5 km run",
+        "longDescription": "Light pace jog around the park to maintain physical fitness and relieve stress after work. Include stretching exercises before and after."
+    },
+    {
+        "title": "Project Planning",
+        "type": "work",
+        "date": "2025-10-03T10:00:00",
+        "shortDescription": "Plan upcoming sprint",
+        "longDescription": "Discuss project roadmap, set detailed milestones, assign tasks to team members, and evaluate potential risks for the next development cycle."
+    },
+    {
+        "title": "Yoga Session",
+        "type": "activity",
+        "date": "2025-10-03T19:00:00",
+        "shortDescription": "Evening relaxation",
+        "longDescription": "Perform a series of yoga poses to relax muscles, improve flexibility, and enhance overall mental well-being after a busy workday."
+    },
+    {
+        "title": "Client Meeting",
+        "type": "work",
+        "date": "2025-10-04T09:30:00",
+        "shortDescription": "Discuss project scope",
+        "longDescription": "Meet with the client to review requirements, clarify objectives, and ensure alignment on deliverables and deadlines for upcoming tasks."
+    },
+    {
+        "title": "Evening Run",
+        "type": "activity",
+        "date": "2025-10-04T18:00:00",
+        "shortDescription": "3 km jog",
+        "longDescription": "Short evening jog for cardiovascular fitness and mental relaxation after a full day of work. Focus on breathing and pace control."
+    },
+    {
+        "title": "Code Review",
+        "type": "work",
+        "date": "2025-10-06T14:00:00",
+        "shortDescription": "Review pull requests",
+        "longDescription": "Go through submitted pull requests, check code quality, ensure compliance with standards, and provide constructive feedback to team members."
+    },
+    {
+        "title": "Team Lunch",
+        "type": "activity",
+        "date": "2025-10-06T12:30:00",
+        "shortDescription": "Lunch with colleagues",
+        "longDescription": "Casual lunch to discuss work progress, share ideas, and strengthen team relationships in a relaxed atmosphere outside the office."
+    },
+    {
+        "title": "Brainstorming Session",
+        "type": "work",
+        "date": "2025-10-07T11:00:00",
+        "shortDescription": "Generate new ideas",
+        "longDescription": "Collaborate with the team to come up with innovative solutions, identify potential improvements, and create a plan for implementation."
+    },
+    {
+        "title": "Evening Meditation",
+        "type": "activity",
+        "date": "2025-10-07T19:00:00",
+        "shortDescription": "Relax and focus",
+        "longDescription": "Practice mindfulness meditation to relieve stress, enhance focus, and improve mental clarity after a productive workday."
+    },
+    {
+        "title": "Feature Planning",
+        "type": "work",
+        "date": "2025-10-09T10:00:00",
+        "shortDescription": "Plan new features",
+        "longDescription": "Detail upcoming features for the product, assign responsibilities, estimate timelines, and discuss potential challenges with the team."
+    },
+    {
+        "title": "Evening Run",
+        "type": "activity",
+        "date": "2025-10-09T18:30:00",
+        "shortDescription": "5 km jog",
+        "longDescription": "Jog at a moderate pace to improve endurance, clear the mind, and maintain overall physical health. Include stretches before and after."
+    },
+    {
+        "title": "Sprint Review",
+        "type": "work",
+        "date": "2025-10-10T15:00:00",
+        "shortDescription": "Review completed tasks",
+        "longDescription": "Assess completed sprint tasks, gather feedback from the team, and identify areas for improvement in workflow and efficiency."
+    },
+    {
+        "title": "Team Workshop",
+        "type": "work",
+        "date": "2025-10-11T13:00:00",
+        "shortDescription": "Skill enhancement",
+        "longDescription": "Conduct a workshop focused on improving technical skills, sharing knowledge, and fostering collaborative problem-solving among team members."
+    },
+    {
+        "title": "Evening Yoga",
+        "type": "activity",
+        "date": "2025-10-11T18:30:00",
+        "shortDescription": "Relax and stretch",
+        "longDescription": "Practice a series of yoga poses to improve flexibility, release tension, and calm the mind at the end of the day."
+    },
+    {
+        "title": "Project Kickoff",
+        "type": "work",
+        "date": "2025-10-13T09:00:00",
+        "shortDescription": "Start new project",
+        "longDescription": "Initiate a new project by setting objectives, defining key milestones, allocating tasks, and clarifying expectations with the team."
+    },
+    {
+        "title": "Morning Run",
+        "type": "activity",
+        "date": "2025-10-13T07:00:00",
+        "shortDescription": "3 km jog",
+        "longDescription": "Early morning run to energize the body, increase stamina, and prepare mentally for a productive workday ahead."
+    },
+    {
+        "title": "Code Optimization",
+        "type": "work",
+        "date": "2025-10-14T11:00:00",
+        "shortDescription": "Improve performance",
+        "longDescription": "Analyze and optimize existing code for performance, reduce memory usage, and ensure scalability and maintainability."
+    },
+    {
+        "title": "Evening Walk",
+        "type": "activity",
+        "date": "2025-10-14T18:00:00",
+        "shortDescription": "Relaxing walk",
+        "longDescription": "Take a gentle walk in the park to unwind, enjoy fresh air, and relieve stress from a busy workday."
+    },
+    {
+        "title": "Team Meeting",
+        "type": "work",
+        "date": "2025-10-15T10:00:00",
+        "shortDescription": "Discuss weekly goals",
+        "longDescription": "Review team goals for the week, evaluate progress, address challenges, and coordinate upcoming tasks to stay on track."
+    },
+    {
+        "title": "Evening Yoga",
+        "type": "activity",
+        "date": "2025-10-15T19:00:00",
+        "shortDescription": "Flexibility and relaxation",
+        "longDescription": "Engage in yoga poses focused on stretching, improving posture, and enhancing relaxation for body and mind."
+    },
+    {
+        "title": "Feature Implementation",
+        "type": "work",
+        "date": "2025-10-17T10:00:00",
+        "shortDescription": "Develop new feature",
+        "longDescription": "Implement the planned feature according to specifications, perform testing, and ensure quality standards are met."
+    },
+    {
+        "title": "Evening Run",
+        "type": "activity",
+        "date": "2025-10-17T18:30:00",
+        "shortDescription": "5 km jog",
+        "longDescription": "Run to improve endurance, maintain cardiovascular health, and enjoy a mental break after work."
+    },
+    {
+        "title": "Code Review",
+        "type": "work",
+        "date": "2025-10-18T11:00:00",
+        "shortDescription": "Review code quality",
+        "longDescription": "Review the code submitted by team members, ensure adherence to best practices, and provide constructive feedback."
+    },
+    {
+        "title": "Team Lunch",
+        "type": "activity",
+        "date": "2025-10-18T12:30:00",
+        "shortDescription": "Lunch with colleagues",
+        "longDescription": "Casual lunch to share updates, discuss ideas, and strengthen team collaboration in a relaxed environment."
+    },
+    {
+        "title": "Sprint Retrospective",
+        "type": "work",
+        "date": "2025-10-20T15:00:00",
+        "shortDescription": "Review sprint",
+        "longDescription": "Reflect on the completed sprint, discuss what went well, what can be improved, and plan actionable steps for future sprints."
+    },
+    {
+        "title": "Evening Meditation",
+        "type": "activity",
+        "date": "2025-10-20T18:00:00",
+        "shortDescription": "Relax and focus",
+        "longDescription": "Engage in meditation to reduce stress, improve focus, and enhance overall mental well-being after a busy day."
+    },
+    {
+        "title": "Project Planning",
+        "type": "work",
+        "date": "2025-10-21T09:00:00",
+        "shortDescription": "Plan upcoming tasks",
+        "longDescription": "Organize tasks for the next project phase, assign responsibilities, set deadlines, and coordinate with team members."
+    },
+    {
+        "title": "Evening Jog",
+        "type": "activity",
+        "date": "2025-10-21T18:30:00",
+        "shortDescription": "5 km run",
+        "longDescription": "Jog at a moderate pace to stay fit, relieve stress, and clear the mind after completing daily work activities."
+    },
+    {
+        "title": "Code Optimization",
+        "type": "work",
+        "date": "2025-10-22T11:00:00",
+        "shortDescription": "Improve performance",
+        "longDescription": "Optimize existing code to enhance performance, reduce load times, and maintain readability and maintainability."
+    },
+    {
+        "title": "Evening Walk",
+        "type": "activity",
+        "date": "2025-10-22T18:00:00",
+        "shortDescription": "Relaxing walk",
+        "longDescription": "Take a short walk outdoors to relax, enjoy nature, and mentally recharge for the next day."
+    },
+    {
+        "title": "Feature Planning",
+        "type": "work",
+        "date": "2025-10-24T10:00:00",
+        "shortDescription": "Plan new features",
+        "longDescription": "Discuss the upcoming features for the product, define priorities, assign tasks, and estimate completion times with the team."
+    },
+    {
+        "title": "Evening Yoga",
+        "type": "activity",
+        "date": "2025-10-24T19:00:00",
+        "shortDescription": "Relaxation and stretching",
+        "longDescription": "Practice yoga poses to stretch muscles, improve flexibility, and calm the mind at the end of a busy day."
+    },
+    {
+        "title": "Project Kickoff",
+        "type": "work",
+        "date": "2025-10-25T09:00:00",
+        "shortDescription": "Start new project",
+        "longDescription": "Kick off a new project by defining goals, outlining deliverables, assigning tasks, and scheduling important milestones."
+    },
+    {
+        "title": "Morning Run",
+        "type": "activity",
+        "date": "2025-10-25T07:00:00",
+        "shortDescription": "5 km jog",
+        "longDescription": "Morning jog to increase energy levels, maintain cardiovascular health, and prepare mentally for the day's work."
+    },
+    {
+        "title": "Code Review",
+        "type": "work",
+        "date": "2025-10-26T11:00:00",
+        "shortDescription": "Review pull requests",
+        "longDescription": "Review submitted code, check for best practices, provide constructive feedback, and ensure overall code quality."
+    },
+    {
+        "title": "Evening Meditation",
+        "type": "activity",
+        "date": "2025-10-26T18:00:00",
+        "shortDescription": "Relax and focus",
+        "longDescription": "Meditation session to unwind, improve concentration, and relieve stress after a long workday."
+    },
+    {
+        "title": "Feature Implementation",
+        "type": "work",
+        "date": "2025-10-28T10:00:00",
+        "shortDescription": "Develop new feature",
+        "longDescription": "Work on implementing a planned feature, test thoroughly, and ensure it meets project requirements and quality standards."
+    },
+    {
+        "title": "Evening Run",
+        "type": "activity",
+        "date": "2025-10-28T18:30:00",
+        "shortDescription": "5 km jog",
+        "longDescription": "Evening run to maintain physical fitness, relieve stress, and clear the mind after a busy day."
+    },
+    {
+        "title": "Project Planning",
+        "type": "work",
+        "date": "2025-10-29T09:00:00",
+        "shortDescription": "Plan upcoming tasks",
+        "longDescription": "Organize tasks for the next phase of the project, assign responsibilities, set deadlines, and coordinate with team members."
+    },
+    {
+        "title": "Evening Yoga",
+        "type": "activity",
+        "date": "2025-10-29T19:00:00",
+        "shortDescription": "Relaxation and stretching",
+        "longDescription": "Perform yoga exercises to stretch muscles, improve flexibility, and relax the mind after a long day of work."
+    },
+    {
+        "title": "Code Review",
+        "type": "work",
+        "date": "2025-10-30T11:00:00",
+        "shortDescription": "Review code quality",
+        "longDescription": "Review submitted code for quality, maintainability, and adherence to best practices. Provide actionable feedback to the team."
+    },
+    {
+        "title": "Evening Walk",
+        "type": "activity",
+        "date": "2025-10-30T18:00:00",
+        "shortDescription": "Relaxing walk",
+        "longDescription": "Take a calm walk in the park to relax, enjoy the outdoors, and recharge mentally for the next day."
+    },
+    {
+        "title": "Team Kickoff",
+        "type": "work",
+        "date": "2025-11-01T09:00:00",
+        "shortDescription": "Morning meeting",
+        "longDescription": "Start the day with a team meeting to outline objectives, set priorities, and discuss any challenges or roadblocks for the upcoming tasks."
+    },
+    {
+        "title": "Code Review",
+        "type": "work",
+        "date": "2025-11-01T11:00:00",
+        "shortDescription": "Review team submissions",
+        "longDescription": "Go through submitted code, provide feedback, ensure compliance with coding standards, and identify potential improvements for maintainability and performance."
+    },
+    {
+        "title": "Evening Run",
+        "type": "activity",
+        "date": "2025-11-03T18:30:00",
+        "shortDescription": "5 km jog",
+        "longDescription": "Take a moderate pace run around the neighborhood to maintain fitness and relieve stress. Include warm-up and cool-down stretches."
+    },
+    {
+        "title": "Client Call",
+        "type": "work",
+        "date": "2025-11-03T14:00:00",
+        "shortDescription": "Discuss project updates",
+        "longDescription": "Call with the client to review current progress, clarify requirements, and ensure alignment on the next steps for project milestones."
+    },
+    {
+        "title": "Team Planning",
+        "type": "work",
+        "date": "2025-11-07T10:00:00",
+        "shortDescription": "Weekly planning session",
+        "longDescription": "Plan tasks and assign responsibilities for the upcoming week. Discuss priorities, timelines, and resource allocation in detail."
+    },
+    {
+        "title": "Evening Yoga",
+        "type": "activity",
+        "date": "2025-11-07T18:30:00",
+        "shortDescription": "Relaxation session",
+        "longDescription": "Perform a yoga routine to unwind muscles, improve flexibility, and reduce mental stress after a busy workday."
+    },
+    {
+        "title": "Feature Review",
+        "type": "work",
+        "date": "2025-11-09T11:00:00",
+        "shortDescription": "Evaluate new features",
+        "longDescription": "Review newly implemented features, discuss potential improvements, and plan for integration into the main project workflow."
+    },
+    {
+        "title": "Evening Run",
+        "type": "activity",
+        "date": "2025-11-11T18:30:00",
+        "shortDescription": "4 km jog",
+        "longDescription": "Evening run to enhance endurance, clear the mind, and maintain physical health. Focus on breathing and steady pace."
+    },
+    {
+        "title": "Team Workshop",
+        "type": "work",
+        "date": "2025-11-11T09:00:00",
+        "shortDescription": "Skill building",
+        "longDescription": "Conduct a workshop for the team to learn new skills, share best practices, and brainstorm innovative solutions for ongoing projects."
+    },
+    {
+        "title": "Project Brainstorm",
+        "type": "work",
+        "date": "2025-11-14T10:00:00",
+        "shortDescription": "Idea generation",
+        "longDescription": "Brainstorm ideas for upcoming features, assess feasibility, and prioritize tasks to align with overall project goals."
+    },
+    {
+        "title": "Evening Meditation",
+        "type": "activity",
+        "date": "2025-11-14T19:00:00",
+        "shortDescription": "Focus and relax",
+        "longDescription": "Meditation session to reduce stress, increase focus, and enhance mental clarity after a productive workday."
+    },
+    {
+        "title": "Project Review",
+        "type": "work",
+        "date": "2025-11-15T09:30:00",
+        "shortDescription": "Review completed tasks",
+        "longDescription": "Evaluate the progress of ongoing tasks, ensure deliverables meet quality standards, and identify areas needing improvement."
+    },
+    {
+        "title": "Evening Walk",
+        "type": "activity",
+        "date": "2025-11-20T18:00:00",
+        "shortDescription": "Relaxing stroll",
+        "longDescription": "Take a peaceful walk outdoors to unwind, enjoy fresh air, and clear your mind after a busy day."
+    },
+    {
+        "title": "Team Meeting",
+        "type": "work",
+        "date": "2025-11-20T10:00:00",
+        "shortDescription": "Coordinate tasks",
+        "longDescription": "Meet with the team to review weekly objectives, discuss progress, and plan for upcoming deadlines in detail."
+    },
+    {
+        "title": "Feature Planning",
+        "type": "work",
+        "date": "2025-11-21T09:30:00",
+        "shortDescription": "Plan new features",
+        "longDescription": "Define and prioritize new features, assign responsibilities, and create a timeline for implementation and testing."
+    },
+    {
+        "title": "Evening Run",
+        "type": "activity",
+        "date": "2025-11-21T18:30:00",
+        "shortDescription": "5 km jog",
+        "longDescription": "Evening run to maintain cardiovascular health, relieve stress, and keep physical endurance at a good level."
+    },
+    {
+        "title": "Sprint Planning",
+        "type": "work",
+        "date": "2025-11-22T10:00:00",
+        "shortDescription": "Plan next sprint",
+        "longDescription": "Plan the tasks for the next sprint, set priorities, allocate resources, and ensure clear understanding among all team members."
+    },
+    {
+        "title": "Evening Yoga",
+        "type": "activity",
+        "date": "2025-11-24T18:30:00",
+        "shortDescription": "Stretch and relax",
+        "longDescription": "Evening yoga session to stretch muscles, improve flexibility, and promote mental relaxation after a day of work."
+    },
+    {
+        "title": "Code Review",
+        "type": "work",
+        "date": "2025-11-26T11:00:00",
+        "shortDescription": "Check code quality",
+        "longDescription": "Review code submitted by team members, ensure compliance with best practices, and provide constructive feedback for improvements."
+    },
+    {
+        "title": "Evening Run",
+        "type": "activity",
+        "date": "2025-11-29T18:30:00",
+        "shortDescription": "4 km jog",
+        "longDescription": "Run in the evening to maintain endurance, improve cardiovascular health, and relieve stress after work."
+    },
+    {
+        "title": "Project Planning",
+        "type": "work",
+        "date": "2025-11-30T09:30:00",
+        "shortDescription": "Plan upcoming tasks",
+        "longDescription": "Organize tasks for the upcoming project phase, assign responsibilities, set deadlines, and coordinate team efforts for efficiency."
+    },
+    {
+        "title": "Evening Walk",
+        "type": "activity",
+        "date": "2025-11-30T18:00:00",
+        "shortDescription": "Relaxing stroll",
+        "longDescription": "Take a peaceful walk to unwind, enjoy the fresh air, and prepare mentally for the next day."
+    },
+    {
+        "title": "Morning Team Sync",
+        "type": "note",
+        "date": "2025-12-04T08:30:00",
+        "shortDescription": "Quick update",
+        "longDescription": "Brief notes on what everyone is focusing on today and key items to remember during the day."
+    },
+    {
+        "title": "Product Design Review",
+        "type": "work",
+        "date": "2025-12-04T10:30:00",
+        "shortDescription": "Review UI/UX",
+        "longDescription": "Discuss user interface and experience improvements, evaluate wireframes, and plan adjustments for the next sprint."
+    },
+    {
+        "title": "Birthday Reminder",
+        "type": "birthday",
+        "date": "2025-12-04T13:00:00",
+        "shortDescription": "Send greetings",
+        "longDescription": "Don't forget to send birthday wishes to colleagues and friends. Plan a small surprise or gift if possible."
+    },
+    {
+        "title": "Evening Meditation",
+        "type": "activity",
+        "date": "2025-12-04T19:00:00",
+        "shortDescription": "Relaxation session",
+        "longDescription": "Meditation and breathing exercises to reduce stress, increase focus, and prepare for a restful night."
+    },
+    {
+        "title": "Team Brainstorm",
+        "type": "work",
+        "date": "2025-12-07T09:30:00",
+        "shortDescription": "Generate ideas",
+        "longDescription": "Collaborative session to come up with innovative solutions, assess feasibility, and assign action items to team members."
+    },
+    {
+        "title": "Client Call",
+        "type": "note",
+        "date": "2025-12-07T11:00:00",
+        "shortDescription": "Project discussion",
+        "longDescription": "Call with the client to clarify requirements, review progress, and ensure alignment on deadlines and deliverables."
+    },
+    {
+        "title": "Afternoon Jog",
+        "type": "activity",
+        "date": "2025-12-07T16:30:00",
+        "shortDescription": "3 km run",
+        "longDescription": "Short jog to maintain cardiovascular health, relieve stress, and clear the mind during the afternoon break."
+    },
+    {
+        "title": "Evening Team Check",
+        "type": "work",
+        "date": "2025-12-07T18:30:00",
+        "shortDescription": "Wrap up meeting",
+        "longDescription": "Check on the progress of daily tasks, summarize achievements, and note pending items for the next day."
+    },
+    {
+        "title": "Project Planning",
+        "type": "work",
+        "date": "2025-12-09T09:00:00",
+        "shortDescription": "Set goals",
+        "longDescription": "Define project milestones, assign tasks, set deadlines, and prepare for the week ahead with all stakeholders."
+    },
+    {
+        "title": "Lunch Break Walk",
+        "type": "activity",
+        "date": "2025-12-09T12:30:00",
+        "shortDescription": "Short walk",
+        "longDescription": "Take a quick walk to refresh, stretch, and recharge before returning to work."
+    },
+    {
+        "title": "Afternoon Code Review",
+        "type": "work",
+        "date": "2025-12-09T15:00:00",
+        "shortDescription": "Check submissions",
+        "longDescription": "Review code submitted by team members, ensure best practices, and provide detailed feedback for improvement."
+    },
+    {
+        "title": "Evening Stretch",
+        "type": "activity",
+        "date": "2025-12-09T19:00:00",
+        "shortDescription": "Flexibility exercises",
+        "longDescription": "Stretch major muscle groups to reduce tension, improve posture, and enhance overall flexibility."
+    },
+    {
+        "title": "Morning Workshop",
+        "type": "work",
+        "date": "2025-12-12T09:00:00",
+        "shortDescription": "Skill building",
+        "longDescription": "Interactive session to practice new techniques, tools, and workflows with colleagues to enhance productivity."
+    },
+    {
+        "title": "Afternoon Call",
+        "type": "note",
+        "date": "2025-12-12T13:30:00",
+        "shortDescription": "Check-in",
+        "longDescription": "Follow-up on tasks, confirm responsibilities, and discuss obstacles that need attention."
+    },
+    {
+        "title": "Evening Run",
+        "type": "activity",
+        "date": "2025-12-12T18:30:00",
+        "shortDescription": "5 km jog",
+        "longDescription": "End the day with a run to maintain fitness, relieve stress, and improve mental clarity."
+    },
+    {
+        "title": "Late Evening Brainstorm",
+        "type": "work",
+        "date": "2025-12-12T20:00:00",
+        "shortDescription": "Idea session",
+        "longDescription": "Generate new concepts and discuss potential improvements for ongoing projects, plan next steps for implementation."
+    },
+    {
+        "title": "Project Kickoff",
+        "type": "work",
+        "date": "2025-12-14T09:00:00",
+        "shortDescription": "Start new module",
+        "longDescription": "Launch the new project module, assign tasks, set deadlines, and ensure everyone understands their responsibilities."
+    },
+    {
+        "title": "Afternoon Team Sync",
+        "type": "note",
+        "date": "2025-12-14T14:00:00",
+        "shortDescription": "Daily update",
+        "longDescription": "Quick update meeting to share progress, address challenges, and adjust priorities for the remainder of the day."
+    },
+    {
+        "title": "Evening Walk",
+        "type": "activity",
+        "date": "2025-12-14T18:30:00",
+        "shortDescription": "Relaxing stroll",
+        "longDescription": "Walk outdoors to clear the mind, enjoy fresh air, and reduce tension after work."
+    },
+    {
+        "title": "Dinner with Friends",
+        "type": "activity",
+        "date": "2025-12-14T20:00:00",
+        "shortDescription": "Social time",
+        "longDescription": "Have dinner with friends or colleagues, share experiences, relax, and build stronger connections."
+    },
+    {
+        "title": "Morning Project Review",
+        "type": "work",
+        "date": "2025-12-18T09:30:00",
+        "shortDescription": "Check tasks",
+        "longDescription": "Review ongoing tasks, identify blockers, and ensure all team members are aligned on priorities."
+    },
+    {
+        "title": "Afternoon Call",
+        "type": "note",
+        "date": "2025-12-18T13:00:00",
+        "shortDescription": "Follow-up",
+        "longDescription": "Check on outstanding items, provide guidance, and confirm next steps with responsible team members."
+    },
+    {
+        "title": "Evening Yoga",
+        "type": "activity",
+        "date": "2025-12-18T18:30:00",
+        "shortDescription": "Stretch & relax",
+        "longDescription": "Evening yoga session to release tension, improve flexibility, and relax mind and body."
+    },
+    {
+        "title": "Morning Planning",
+        "type": "work",
+        "date": "2025-12-20T09:00:00",
+        "shortDescription": "Set priorities",
+        "longDescription": "Plan upcoming tasks, assign responsibilities, and prepare for smooth execution of ongoing projects."
+    },
+    {
+        "title": "Afternoon Jog",
+        "type": "activity",
+        "date": "2025-12-20T15:00:00",
+        "shortDescription": "Cardio session",
+        "longDescription": "Short jog for physical fitness, stress relief, and mental clarity before finishing work tasks."
+    },
+    {
+        "title": "Evening Team Wrap",
+        "type": "work",
+        "date": "2025-12-20T18:30:00",
+        "shortDescription": "Daily recap",
+        "longDescription": "Summarize completed tasks, identify any issues, and plan for the next day's work."
+    },
+    {
+        "title": "Morning Review",
+        "type": "work",
+        "date": "2025-12-22T09:00:00",
+        "shortDescription": "Feature check",
+        "longDescription": "Review newly implemented features, evaluate quality, and ensure alignment with project objectives."
+    },
+    {
+        "title": "Afternoon Walk",
+        "type": "activity",
+        "date": "2025-12-22T13:30:00",
+        "shortDescription": "Relaxing stroll",
+        "longDescription": "Take a break outside, refresh mind, and clear stress before evening tasks."
+    },
+    {
+        "title": "Evening Team Brainstorm",
+        "type": "work",
+        "date": "2025-12-22T18:30:00",
+        "shortDescription": "Idea generation",
+        "longDescription": "Brainstorm creative solutions, assess feasibility, and define next steps for implementation."
+    },
+    {
+        "title": "Morning Kickoff",
+        "type": "work",
+        "date": "2025-12-23T09:00:00",
+        "shortDescription": "Daily start",
+        "longDescription": "Align the team on goals for the day, discuss priorities, and address any blockers."
+    },
+    {
+        "title": "Afternoon Code Review",
+        "type": "work",
+        "date": "2025-12-23T14:00:00",
+        "shortDescription": "Check submissions",
+        "longDescription": "Review team's code, ensure standards, and provide feedback for improvements."
+    },
+    {
+        "title": "Evening Stretch",
+        "type": "activity",
+        "date": "2025-12-23T18:30:00",
+        "shortDescription": "Flexibility session",
+        "longDescription": "Stretch muscles, release tension, and improve overall flexibility after a productive day."
+    },
+    {
+        "title": "Morning Planning",
+        "type": "work",
+        "date": "2025-12-24T09:00:00",
+        "shortDescription": "Task planning",
+        "longDescription": "Organize remaining tasks for the week, allocate resources, and confirm deadlines."
+    },
+    {
+        "title": "Afternoon Team Sync",
+        "type": "note",
+        "date": "2025-12-24T13:00:00",
+        "shortDescription": "Daily update",
+        "longDescription": "Share progress updates, address questions, and coordinate activities for the rest of the day."
+    },
+    {
+        "title": "Evening Yoga",
+        "type": "activity",
+        "date": "2025-12-24T18:30:00",
+        "shortDescription": "Relax & stretch",
+        "longDescription": "Yoga session to unwind, improve flexibility, and prepare for the next day."
+    },
+    {
+        "title": "Morning Kickoff",
+        "type": "work",
+        "date": "2025-12-26T09:00:00",
+        "shortDescription": "Start of day",
+        "longDescription": "Align on day's objectives, review tasks, and ensure team is ready for the day's work."
+    },
+    {
+        "title": "Afternoon Run",
+        "type": "activity",
+        "date": "2025-12-26T14:30:00",
+        "shortDescription": "Cardio session",
+        "longDescription": "Run to boost energy, maintain fitness, and clear the mind before evening activities."
+    },
+    {
+        "title": "Evening Wrap-up",
+        "type": "work",
+        "date": "2025-12-26T18:30:00",
+        "shortDescription": "End-of-day summary",
+        "longDescription": "Review accomplished tasks, highlight blockers, and plan follow-up actions for the next day."
+    },
+    {
+        "title": "Morning Project Review",
+        "type": "work",
+        "date": "2025-12-27T09:00:00",
+        "shortDescription": "Check progress",
+        "longDescription": "Review ongoing projects, ensure tasks are on track, and plan necessary adjustments."
+    },
+    {
+        "title": "Afternoon Brainstorm",
+        "type": "note",
+        "date": "2025-12-27T13:30:00",
+        "shortDescription": "Idea session",
+        "longDescription": "Discuss new ideas, evaluate feasibility, and assign next steps to team members."
+    },
+    {
+        "title": "Evening Relaxation",
+        "type": "activity",
+        "date": "2025-12-27T18:30:00",
+        "shortDescription": "Stretch & unwind",
+        "longDescription": "Evening relaxation routine including stretching and mindfulness exercises to release tension."
+    },
+    {
+        "title": "New Year's Eve Planning",
+        "type": "work",
+        "date": "2025-12-31T09:00:00",
+        "shortDescription": "Prepare celebration",
+        "longDescription": "Plan New Year's Eve tasks, coordinate responsibilities, and ensure smooth event execution."
+    },
+    {
+        "title": "Afternoon Team Sync",
+        "type": "note",
+        "date": "2025-12-31T13:00:00",
+        "shortDescription": "Final check",
+        "longDescription": "Align team on remaining tasks for the day, ensure all preparations are complete, and finalize event details."
+    },
+    {
+        "title": "Evening Celebration",
+        "type": "activity",
+        "date": "2025-12-31T20:00:00",
+        "shortDescription": "New Year party",
+        "longDescription": "Celebrate the end of the year with colleagues or friends, enjoy food, music, and reflect on achievements of the past year."
+    },
+    {
+        "title": "New Year City Walk",
+        "type": "activity",
+        "date": "2026-01-03T10:00:00",
+        "shortDescription": "Morning stroll",
+        "longDescription": "Walk through the city to enjoy the fresh start of the year, reflect on past achievements, and plan personal goals."
+    },
+    {
+        "title": "Team Kickoff Meeting",
+        "type": "work",
+        "date": "2026-01-03T13:00:00",
+        "shortDescription": "Project planning",
+        "longDescription": "Discuss upcoming projects, assign responsibilities, and align team members on objectives and priorities for the month."
+    },
+    {
+        "title": "Evening Stretch",
+        "type": "activity",
+        "date": "2026-01-03T18:00:00",
+        "shortDescription": "Flexibility session",
+        "longDescription": "End the day with stretching exercises to relax muscles, improve posture, and clear the mind."
+    },
+    {
+        "title": "Morning Code Review",
+        "type": "work",
+        "date": "2026-01-07T09:00:00",
+        "shortDescription": "Check submissions",
+        "longDescription": "Review the latest code submissions from team members, provide feedback, and ensure best practices are followed."
+    },
+    {
+        "title": "Lunch Break Walk",
+        "type": "activity",
+        "date": "2026-01-07T12:30:00",
+        "shortDescription": "Refresh walk",
+        "longDescription": "Short walk outdoors to relax, refresh energy, and improve focus for afternoon tasks."
+    },
+    {
+        "title": "Afternoon Workshop",
+        "type": "work",
+        "date": "2026-01-07T15:30:00",
+        "shortDescription": "Skill building",
+        "longDescription": "Hands-on session to practice new skills, learn new tools, and enhance team efficiency."
+    },
+    {
+        "title": "Evening Relaxation",
+        "type": "activity",
+        "date": "2026-01-07T18:00:00",
+        "shortDescription": "Mindfulness session",
+        "longDescription": "Meditation and breathing exercises to relax, reduce stress, and prepare for the next day's challenges."
+    },
+    {
+        "title": "Morning Sprint Planning",
+        "type": "work",
+        "date": "2026-01-10T09:30:00",
+        "shortDescription": "Plan tasks",
+        "longDescription": "Organize tasks for the upcoming sprint, assign responsibilities, and set deadlines to ensure smooth progress."
+    },
+    {
+        "title": "Team Lunch",
+        "type": "activity",
+        "date": "2026-01-10T12:00:00",
+        "shortDescription": "Social time",
+        "longDescription": "Enjoy a team lunch to strengthen bonds, share ideas, and relax together in a casual environment."
+    },
+    {
+        "title": "Evening Reflection",
+        "type": "note",
+        "date": "2026-01-10T18:30:00",
+        "shortDescription": "Daily summary",
+        "longDescription": "Reflect on the day's accomplishments, note key insights, and prepare a brief plan for the next day."
+    },
+    {
+        "title": "Morning Brainstorm",
+        "type": "work",
+        "date": "2026-01-13T09:00:00",
+        "shortDescription": "Idea generation",
+        "longDescription": "Collaborative brainstorming session to come up with creative solutions, prioritize initiatives, and plan next steps."
+    },
+    {
+        "title": "Afternoon Stretch",
+        "type": "activity",
+        "date": "2026-01-13T14:30:00",
+        "shortDescription": "Relax muscles",
+        "longDescription": "Stretch and move to release tension, improve circulation, and enhance focus for the remainder of the day."
+    },
+    {
+        "title": "Evening Team Sync",
+        "type": "note",
+        "date": "2026-01-13T18:00:00",
+        "shortDescription": "Update session",
+        "longDescription": "Team check-in to review progress, clarify any open issues, and confirm plans for the next day."
+    },
+    {
+        "title": "Morning Planning",
+        "type": "work",
+        "date": "2026-01-14T09:00:00",
+        "shortDescription": "Set priorities",
+        "longDescription": "Review pending tasks, assign work, and define objectives for the day to ensure productive progress."
+    },
+    {
+        "title": "Afternoon Run",
+        "type": "activity",
+        "date": "2026-01-14T15:00:00",
+        "shortDescription": "Cardio exercise",
+        "longDescription": "Short running session to improve cardiovascular health, energize the body, and maintain overall fitness."
+    },
+    {
+        "title": "Evening Wrap-up",
+        "type": "work",
+        "date": "2026-01-14T18:30:00",
+        "shortDescription": "Daily review",
+        "longDescription": "Summarize achievements, note pending items, and prepare a plan for the next day's tasks."
+    },
+    {
+        "title": "Morning Team Workshop",
+        "type": "work",
+        "date": "2026-01-15T09:30:00",
+        "shortDescription": "Skill session",
+        "longDescription": "Interactive workshop to develop team skills, review best practices, and share knowledge among participants."
+    },
+    {
+        "title": "Afternoon Walk",
+        "type": "activity",
+        "date": "2026-01-15T13:00:00",
+        "shortDescription": "Refresh",
+        "longDescription": "Take a short walk outside to clear the mind, recharge energy, and relax before evening tasks."
+    },
+    {
+        "title": "Evening Brainstorm",
+        "type": "work",
+        "date": "2026-01-15T17:30:00",
+        "shortDescription": "Idea session",
+        "longDescription": "Brainstorm creative solutions, evaluate feasibility, and define actionable steps for ongoing projects."
+    },
+    {
+        "title": "Morning Planning",
+        "type": "work",
+        "date": "2026-01-17T09:00:00",
+        "shortDescription": "Organize day",
+        "longDescription": "Set objectives, assign tasks, and plan priorities to ensure smooth execution of daily activities."
+    },
+    {
+        "title": "Afternoon Stretch",
+        "type": "activity",
+        "date": "2026-01-17T14:30:00",
+        "shortDescription": "Relaxation session",
+        "longDescription": "Perform stretching exercises to reduce tension, improve posture, and maintain focus throughout the day."
+    },
+    {
+        "title": "Evening Review",
+        "type": "note",
+        "date": "2026-01-17T18:00:00",
+        "shortDescription": "Daily summary",
+        "longDescription": "Review the day's progress, record key insights, and plan for the next day's activities."
+    },
+    {
+        "title": "Morning Sprint Planning",
+        "type": "work",
+        "date": "2026-01-23T09:00:00",
+        "shortDescription": "Plan tasks",
+        "longDescription": "Organize upcoming sprint tasks, assign responsibilities, and ensure alignment with project objectives."
+    },
+    {
+        "title": "Afternoon Team Sync",
+        "type": "note",
+        "date": "2026-01-23T13:30:00",
+        "shortDescription": "Update meeting",
+        "longDescription": "Quick check-in with the team to review progress, clarify issues, and ensure alignment on priorities."
+    },
+    {
+        "title": "Evening Stretch",
+        "type": "activity",
+        "date": "2026-01-23T18:00:00",
+        "shortDescription": "Relax muscles",
+        "longDescription": "Perform stretching and light exercises to unwind and maintain physical well-being."
+    },
+    {
+        "title": "Morning Review",
+        "type": "work",
+        "date": "2026-01-26T09:00:00",
+        "shortDescription": "Check progress",
+        "longDescription": "Review tasks in progress, identify blockers, and plan adjustments to ensure smooth workflow."
+    },
+    {
+        "title": "Afternoon Call",
+        "type": "note",
+        "date": "2026-01-26T13:00:00",
+        "shortDescription": "Follow-up",
+        "longDescription": "Call with relevant team members to discuss progress, clarify responsibilities, and assign next steps."
+    },
+    {
+        "title": "Evening Jog",
+        "type": "activity",
+        "date": "2026-01-26T18:00:00",
+        "shortDescription": "Cardio session",
+        "longDescription": "Evening jogging session to improve fitness, reduce stress, and clear the mind before rest."
+    },
+    {
+        "title": "Morning Planning",
+        "type": "work",
+        "date": "2026-01-29T09:00:00",
+        "shortDescription": "Set priorities",
+        "longDescription": "Review pending tasks, assign responsibilities, and plan for a productive end of month."
+    },
+    {
+        "title": "Afternoon Walk",
+        "type": "activity",
+        "date": "2026-01-29T13:30:00",
+        "shortDescription": "Refresh break",
+        "longDescription": "Short walk outdoors to refresh energy, improve focus, and reduce stress before evening tasks."
+    },
+    {
+        "title": "Evening Team Sync",
+        "type": "note",
+        "date": "2026-01-29T18:00:00",
+        "shortDescription": "Daily recap",
+        "longDescription": "Summarize accomplishments, review outstanding tasks, and prepare a plan for the next day."
+    }
+]
